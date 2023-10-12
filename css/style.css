@@ -6,6 +6,11 @@
 body{
     scroll-behavior: smooth !important;
 }
+@media (max-width:415px) {
+    .banner{
+        padding: 40% 0 !important;
+    }
+}
 
 .navbar{
     position: fixed !important;
@@ -14,7 +19,7 @@ body{
 }
 .banner{
  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/prog.jpg") !important;
- height: 100vh;
+padding: 18% 0;
  background-position: center;
  background-size: cover; 
 }
