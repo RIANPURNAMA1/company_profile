@@ -1,0 +1,53 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    scroll-behavior: smooth !important;
+}
+
+.navbar{
+    position: fixed !important;
+    z-index: 99 !important;
+    width: 100%;
+}
+.banner{
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/prog.jpg") !important;
+ height: 100vh;
+ background-position: center;
+ background-size: cover; 
+}
+.icon{
+    font-size: 4rem;
+}
+.porto{
+    padding-bottom: 16% !important;
+}
+.layanan{
+    padding:  16% 0 !important;
+}
+.tentang{
+    padding-bottom: 16% !important;
+}
+.lingkaran{
+    padding: 5px;
+    width: 160px !important;
+}
+.medsos{
+    letter-spacing: 10px !important;
+}
+.tim{
+    padding-bottom: 16% !important;
+}
+
+.images{
+    border:  4px solid red !important;
+}
+.partner{
+    background-color: rgb(180, 0, 0) !important;
+    color: white !important;
+}
+.footer{
+    padding-top: 10%;
+}
